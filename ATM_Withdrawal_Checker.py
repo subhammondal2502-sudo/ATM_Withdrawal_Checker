@@ -9,3 +9,6 @@ if balance < 0:
 
 elif withdraw_amount <= 0:
     print("Invalid amount")
+
+elif withdraw_amount > balance:
+    print("Insufficient balance")
