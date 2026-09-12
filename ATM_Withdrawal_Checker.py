@@ -12,3 +12,6 @@ elif withdraw_amount <= 0:
 
 elif withdraw_amount > balance:
     print("Insufficient balance")
+
+else:
+    print("Remaining_balance : ", Remaining_balance) 
