@@ -6,12 +6,9 @@ print("balance : ", balance)
 print("withdraw_amount : ", withdraw_amount)
 if balance < 0:
     print("Invalid balance")
-
 elif withdraw_amount <= 0:
     print("Invalid amount")
-
 elif withdraw_amount > balance:
     print("Insufficient balance")
-
 else:
     print("Remaining_balance : ", Remaining_balance) 
